@@ -8,7 +8,7 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-LABEL maintainer="Eric R Post <ericrpost@gmail.com>" \
+LABEL maintainer="Eric R Post <eric@erp.sh>" \
       version="1.0"
 
 CMD flask run --host=0.0.0.0 --port=5000
